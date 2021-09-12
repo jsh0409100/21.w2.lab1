@@ -19,6 +19,7 @@ public class Main {
 		list.add(new Student(9, "Jiswon", 23));
 		list.add(new Student(10, "Soo", 22));
 
+		Collections.sort(list);
 		
 
 		for(int i = 0; i<list.size(); i++) {
